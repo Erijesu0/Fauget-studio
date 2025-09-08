@@ -1,0 +1,96 @@
+ body {
+   /* background-color: aqua; */
+
+
+   background-image: url(dummy\ image\ dog1.jpg);
+
+
+   background-size: cover; }
+
+ h1 {
+
+    color: black;
+
+    background-color: beige;}
+
+ p { color: black;
+ background-color: rgb(27, 127, 178);}
+
+
+ div { background-color: blueviolet;
+padding-top: 50px;
+padding-bottom: 50px;
+padding-right: 50px;
+padding-left: 50px;
+
+opacity: 100%;}
+
+
+h4{color: rgb(255, 0, 0);   background-color: blue;}  
+
+
+#specificid{
+ color:  green;
+ background-color: yellow ;
+}
+
+
+.dotted{
+border-style: dotted; width: 80px; color: darkblue;
+}
+
+.double{
+   border-style: double; width: 100px;
+}
+
+.incert
+{ border-style: inset; width: 200px;}
+.solid{border-style: solid; height: 100px; color: darkgreen;}
+
+
+.margins{ 
+   border: 1px solid;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 100px;
+margin-right: 150px;
+color: brown;
+}
+
+#boxmodels{
+background-color: aquamarine;
+border: 15px solid blue;
+width: 300px;
+margin: 10px;
+padding: 50px;
+}
+
+h5{
+   background-color: chartreuse;
+   padding: 30px;
+   border: 10px solid black; ;
+   width: 200px;
+}
+.align{
+
+   text-align: center;
+}
+.space{
+line-height: 4;
+}
+
+.letterspace{
+   letter-spacing: -2px;
+}
+.textsize{
+   font-size: 70px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul{
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: ;
+   background-color: black;
+}
