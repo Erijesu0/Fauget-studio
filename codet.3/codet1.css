@@ -6,49 +6,57 @@
 
 body {
   font-family: Arial, sans-serif;
+  margin: auto;
+  border-top: 5px rgb(252, 218, 155);
 }
 
 .top-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2c3e50;
+  background-color: #0a174e;
   color: rgb(8, 8, 8);
   padding: 15px 30px;
+  height: 60px;
+  border-radius: 3px;
 }
 
 .logo {
-    height: 40px;
-    width: auto;
-    display: flex;
+  height: 50px;
+  width: auto;
+  display: flex;
 }
 
 .nav-links a {
-  color: white;
+  color: #fff;
   text-decoration: none;
   margin-left: 20px;
-  font-size: 1rem;
+  font-size: 15px;
 }
 
 .nav-links a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #000000;
 }
-.top-bar2{
+
+/*.top-bar2{
+    margin-top: 3px;
     display: flex;
     align-items: center;
     background-color: wheat;
     color:rgb(9, 9, 9) ;
     padding: 15px  30px;
     justify-content: center;
-    height:500%;
+    height:30px*/
+
+.studio-name {
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: center;
+  line-height: 1.5;
 }
-.studio-name{
-    font-style: italic;
-    font-family: cursive;
-    font-size: 30px;
-    text-align: center;
-}
-.mainimg{
+.mainimg {
   background-size: cover;
   background-position: center;
   height: 1000px;
@@ -57,4 +65,119 @@ body {
   justify-content: center;
   color: white;
   text-align: center;
+}
+.intro {
+  margin-top: 50px;
+  margin-right: 30px;
+  padding: 20px;
+  display: flex;
+  line-height: 1.7;
+  gap: 30px;
+}
+h1 {
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  line-height: 1.2;
+  text-transform: capitalize;
+}
+header {
+}
+.intro-text {
+  margin-left: 20px;
+  justify-items: center;
+}
+.text {
+  font-size: 20px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+#head-image {
+  border-radius: 10px;
+  width: 40rem;
+  height: 30rem;
+  box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* studio qualities*/
+.offer-header {
+  justify-self: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+.studio-offers1 {
+  background-color: #2c3e50a3;
+  display: flex;
+  gap: 50px;
+  margin: 30px 60px;
+  padding: 5px;
+  /*box-shadow: 0px 10px 15px 20px  rgba(0, 0, 0, 0.564);*/
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+  border-radius: 15px;
+  box-shadow: inset;
+}
+
+.offer-text {
+  justify-items: end;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  line-height: 1.7;
+  padding: 20px;
+}
+
+.studio-mic {
+  width: 15rem;
+  height: 10rem;
+  border-radius: 20px;
+  margin: 20px 30px;
+}
+.studio-offers2 {
+  background-color: #ffdfb9;
+  display: flex;
+  gap: 40px;
+  margin: 30px 60px;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.studio-offers3 {
+  background-color: #5a233287;
+  display: flex;
+  gap: 50px;
+  margin: 30px 60px;
+  padding: 5px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+}
+
+.btn {
+  justify-content: center;
+  margin-top: 90px;
+  margin-right: 50px;
+  margin-bottom: 30px;
+  display: inline;
+  padding: 30px;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: rgb(252, 218, 155);
+  color: #000000;
+  text-decoration: none;
+  text-transform: none;
+  font-family: sans-serif;
+  display: inline-block;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background-color: #f7bf7b;
 }
