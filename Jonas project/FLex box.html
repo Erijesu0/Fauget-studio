@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blog.flexbox</title>
+  </head>
+  <body>
+    <div class="color-rows">
+      <div class="grey">Html</div>
+      <div class="bblue">and</div>
+      <div class="rred">Css</div>
+      <div class="ggreen">are</div>
+      <div class="bbrown">amazing</div>
+      <div class="yyellow">languages</div>
+    </div>
+
+    <style>
+      .color-rows {
+        background-color: rgb(222, 207, 193);
+        width: 300;
+        height: 80px;
+        font-family: sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 50px;
+        /*flex-grow: 0;
+    flex-shrink:1; it allows wether flexbox is allowed to shrink elemnt if necsarryor not
+    flex-basis: auto; for sizing in flex 
+    flex-grow:1;
+    flex:1; major use
+       Default*/
+      }
+      .grey {
+        /* Html*/
+        background-color: gray;
+        height: 22px;
+        /* width: 35px;*/
+        align-self: flex-start;
+        flex-basis: 100px;
+      }
+      .bblue {
+        /* and*/
+        background-color: rgb(0, 8, 255);
+        height: 22px;
+        width: 30px;
+      }
+      .rred {
+        /*CSS*/
+        background-color: red;
+        height: 22px;
+        width: 30px;
+        align-self: stretch;
+        order: 1;
+      }
+      .ggreen {
+        /*are*/
+        background-color: green;
+        height: 22px;
+        width: 22px;
+      }
+      .bbrown {
+        /*amazing*/
+        background-color: brown;
+        height: 22px;
+        width: 60px;
+        /* margin-right: 30px;*/
+      }
+      .yyellow {
+        /*Languages*/
+        background-color: yellow;
+        width: 70px;
+        height: 22px;
+        /* order: -1;*/
+      }
+    </style>
+  </body>
+</html>
